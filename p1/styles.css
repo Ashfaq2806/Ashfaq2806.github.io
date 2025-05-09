@@ -8,10 +8,10 @@
 }
 
 header {
-    display: flex;
+    display: flex;update
     justify-content: space-between;
-    background-color: orange;
-    color: white;
+    background-color: rgb(109, 198, 136);
+    color: rgb(93, 17, 17);
     padding: 10px;
 }
 
