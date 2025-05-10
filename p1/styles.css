@@ -15,8 +15,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(148, 233, 92);
-    color: rgb(19, 19, 19);
+    background-color: rgb(16, 16, 15);
+    color: rgb(223, 95, 95);
     padding: 15px 30px;
 }
 
@@ -32,15 +32,15 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: rgb(150, 55, 55);
+    color: rgb(55, 84, 150);
 }
 header ul li a:hover {
     text-decoration: underline;
-    color: lightgray;
+    color: rgb(227, 177, 240);
 }
 
 button:hover {
-    background-color: rgb(172, 105, 50);
+    background-color: rgb(211, 66, 66);
     cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ button
     padding: 30px;
     margin: 20px 0;
     border-radius: 12px;
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 6px 15px rgba(179, 41, 41, 0.1);
 }
 .boxfirst:hover
 {
@@ -112,9 +112,9 @@ button
     text-align: center;
     font-size: 32px;
     margin-top: 30px;
-    color: #c2a7e3;
+    color: #5fe353;
 }
 #sect 
 {
-    background-color: #9f29ed;
+    background-color: #bbd913;
 }
