@@ -1,60 +1,120 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
     width: 100%;
-    margin: auto
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(105, 88, 56);
-    color: white;
-    padding: 10px;
+    align-items: center;
+    background-color: rgb(148, 233, 92);
+    color: rgb(19, 19, 19);
+    padding: 15px 30px;
 }
 
-header li {
+header ul {
+    list-style: none;
+}
+
+header ul li {
     display: inline-block;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 22px;
+    padding: 5px 10px;
 }
 
-header a{
+header ul li a {
     text-decoration: none;
+    color: rgb(150, 55, 55);
+}
+header ul li a:hover {
+    text-decoration: underline;
+    color: lightgray;
 }
 
-.row {
+button:hover {
+    background-color: rgb(172, 105, 50);
+    cursor: pointer;
+}
+
+.row
+{
     display: flex;
+    padding: 22px;
     justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
 }
-
-.box {
+.box
+{
     width: 500px;
     padding: 30px;
 }
-
-.btn-signup{
-    background-color: rgb(11, 139, 77);
-    margin-top: 10px;
-    padding:7px;
-    font-size: 20px;
-    border-radius: 10px;
-    border:none;
+.title
+{
+    text-align: center;
 }
-
-.summary {
+#para
+{
     font-size: 20px;
-    margin-top: 10px;
+    font-weight: 400;
 }
-
-.image {
+button
+{
+    padding: 9px;
+    background-color: rgb(57, 58, 42);
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100px;
+}
+#home 
+{
+    background: linear-gradient(to right, #6595b7, #ffffff);
+    padding: 40px 0;
+}
+.box img {
     border-radius: 50px;
+    box-shadow: 0px 4px 12px rgba(200, 91, 91, 0.2);
 }
-
-.title {
-    font-size: 30px;
+.proj
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rowfirst {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.boxfirst 
+{
+    width: 32%;
+    background-color: #de5252;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+}
+.boxfirst:hover
+{
+    transform: translateY(-5px);
+}
+.proj 
+{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+    color: #c2a7e3;
+}
+#sect 
+{
+    background-color: #9f29ed;
 }
