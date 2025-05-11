@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 50;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: #7d85db;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #882121;
+}
