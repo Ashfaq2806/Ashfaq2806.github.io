@@ -13,3 +13,18 @@ body {
   font-size: 1.5rem;
   color: #882121;
 }
+/* Tablet */
+@media (min-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+    color: #007BFF;
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .title {
+    font-size: 3.5rem;
+    color: #28a745;
+  }
+}
